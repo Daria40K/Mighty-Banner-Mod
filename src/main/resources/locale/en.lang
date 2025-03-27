@@ -6,4 +6,23 @@ banner_of_resistance=Banner of Resistance
 banner_of_summoning=Banner of Summoning
 banner_of_attack_speed=Banner of Attack Speed
 
+banner_of_fishing_inactive=Banner of Fishing (inactive)
+banner_of_health_regen_inactive=Banner of Health Regen (inactive)
+banner_of_mana_regen_inactive=Banner of Mana Regen (inactive)
+banner_of_resistance_inactive=Banner of Resistance (inactive)
+banner_of_summoning_inactive=Banner of Summoning (inactive)
+banner_of_attack_speed_inactive=Banner of Attack Speed (inactive)
+
+banner_of_greater_fishing=Banner of Greater Fishing
+banner_of_greater_health_regen=Banner of Greater Health Regen
+banner_of_greater_mana_regen=Banner of Greater Mana Regen
+banner_of_greater_resistance=Banner of Greater Resistance
+banner_of_greater_summoning=Banner of Greater Summoning
 banner_of_greater_attack_speed=Banner of Greater Attack Speed
+
+banner_of_greater_fishing_inactive=Banner of Greater Fishing (inactive)
+banner_of_greater_health_regen_inactive=Banner of Greater Health Regen (inactive)
+banner_of_greater_mana_regen_inactive=Banner of Greater Mana Regen (inactive)
+banner_of_greater_resistance_inactive=Banner of Greater Resistance (inactive)
+banner_of_greater_summoning_inactive=Banner of Greater Summoning (inactive)
+banner_of_greater_attack_speed_inactive=Banner of Greater Attack Speed (inactive)

@@ -3,7 +3,7 @@ package buff;
 import necesse.entity.mobs.buffs.ActiveBuff;
 import necesse.entity.mobs.buffs.BuffModifiers;
 
-public class BannerOfResistanceBuff extends MightyVicinityBuff {
+public class BannerOfGreaterManaRegenBuff extends MightyVicinityBuff {
     @Override
     public void clientTick(ActiveBuff buff) {
         this.updateModifiers(buff);
@@ -15,11 +15,11 @@ public class BannerOfResistanceBuff extends MightyVicinityBuff {
     }
 
     public void updateModifiers(ActiveBuff buff) {
-        if(buff.owner.buffManager.hasBuff("banner_of_greater_resistance") || buff.owner.buffManager.hasBuff("banner_of_even_greater_resistance")) {
-            buff.setModifier(BuffModifiers.ARMOR_FLAT, 0);
+        if(buff.owner.buffManager.hasBuff("banner_of_even_greater_mana_regen")) {
+            buff.setModifier(BuffModifiers.COMBAT_MANA_REGEN, 0F);
             this.updateBuffActive(false);
         } else {
-            buff.setModifier(BuffModifiers.ARMOR_FLAT, 8);
+            buff.setModifier(BuffModifiers.COMBAT_MANA_REGEN, 4.0F);
             this.updateBuffActive(true);
         }
     }
