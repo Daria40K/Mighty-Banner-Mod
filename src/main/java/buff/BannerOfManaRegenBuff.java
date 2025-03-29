@@ -15,7 +15,7 @@ public class BannerOfManaRegenBuff extends MightyVicinityBuff {
     }
 
     public void updateModifiers(ActiveBuff buff) {
-        if(buff.owner.buffManager.hasBuff("banner_of_greater_mana_regen") || buff.owner.buffManager.hasBuff("banner_of_even_greater_mana_regen")) {
+        if(buff.owner.buffManager.hasBuff("banner_of_greater_mana_regen")) {
             buff.setModifier(BuffModifiers.COMBAT_MANA_REGEN, 0F);
             this.updateBuffActive(false);
         } else {

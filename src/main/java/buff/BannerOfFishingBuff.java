@@ -15,7 +15,8 @@ public class BannerOfFishingBuff extends MightyVicinityBuff {
     }
 
     public void updateModifiers(ActiveBuff buff) {
-        if(buff.owner.buffManager.hasBuff("banner_of_greater_fishing") || buff.owner.buffManager.hasBuff("banner_of_even_greater_fishing")) {
+        //if(buff.owner.buffManager.hasBuff("banner_of_greater_fishing") || buff.owner.buffManager.hasBuff("banner_of_even_greater_fishing")) {
+        if(buff.owner.buffManager.hasBuff("banner_of_greater_fishing")) {
             buff.setModifier(BuffModifiers.FISHING_POWER, 0);
             this.updateBuffActive(false);
         } else {

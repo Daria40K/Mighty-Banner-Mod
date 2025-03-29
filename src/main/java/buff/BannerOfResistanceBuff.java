@@ -15,7 +15,7 @@ public class BannerOfResistanceBuff extends MightyVicinityBuff {
     }
 
     public void updateModifiers(ActiveBuff buff) {
-        if(buff.owner.buffManager.hasBuff("banner_of_greater_resistance") || buff.owner.buffManager.hasBuff("banner_of_even_greater_resistance")) {
+        if(buff.owner.buffManager.hasBuff("banner_of_greater_resistance")) {
             buff.setModifier(BuffModifiers.ARMOR_FLAT, 0);
             this.updateBuffActive(false);
         } else {

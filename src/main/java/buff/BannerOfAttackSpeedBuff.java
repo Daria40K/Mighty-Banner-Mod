@@ -15,7 +15,7 @@ public class BannerOfAttackSpeedBuff extends MightyVicinityBuff {
     }
 
     public void updateModifiers(ActiveBuff buff) {
-        if(buff.owner.buffManager.hasBuff("banner_of_greater_attack_speed") || buff.owner.buffManager.hasBuff("banner_of_even_greater_attack_speed")) {
+        if(buff.owner.buffManager.hasBuff("banner_of_greater_attack_speed")) {
             buff.setModifier(BuffModifiers.ATTACK_SPEED, 0F);
             this.updateBuffActive(false);
         } else {

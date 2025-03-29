@@ -15,7 +15,7 @@ public class BannerOfHealthRegenBuff extends MightyVicinityBuff {
     }
 
     public void updateModifiers(ActiveBuff buff) {
-        if(buff.owner.buffManager.hasBuff("banner_of_greater_health_regen") || buff.owner.buffManager.hasBuff("banner_of_even_greater_health_regen")) {
+        if(buff.owner.buffManager.hasBuff("banner_of_greater_health_regen")) {
             buff.setModifier(BuffModifiers.COMBAT_HEALTH_REGEN_FLAT, 0F);
             this.updateBuffActive(false);
         } else {
